@@ -19,7 +19,7 @@ The codes in this section of the repository include :
 
 **Quantum without Entangling Gates: Accuracy**
 
-This code prepares each system, one with the original quantum processing unit and one with a modified quantum processing unit without entangling gates, and then trains and tests the model to determine the best test accuracy. The system is reset and re-trained 100 times, and all the best test accuracy values are presented in a histogram. This code took about 50 hours to run on my machine, and the results are posted in the results folder under “ Quantum without Entangling Gates: Accuracy results”. 
+This code prepares each system, one with the original quantum processing unit and one with a modified quantum processing unit without entangling gates, and then trains and tests the model to determine the best test accuracy. The system is reset and re-trained 100 times, and all the best test accuracy values are presented in a histogram. 
 
 **Quantum without Entangling Gates: Efficiency**
 
