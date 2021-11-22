@@ -23,7 +23,7 @@ This code prepares each system, one with the original quantum processing unit an
 
 **Quantum without Entangling Gates: Efficiency**
 
-To determine the convergence rate, we use the value of the loss function. For each of the two processing units, the loss function value at each epoch iteration is recorded. The system is reset and re-trained 100 times, and the loss function value at each epoch is averaged. The loss function value against epoch number is then plotted for each processing unit case. We expect the loss to fall, and then platau at some minimum value. The quicker the system is able to reach this platau, the better its convergence rate. This code took about 50 hours to run on my machine, and the results are posted in the results folder under “Quantum without Entangling Gates: Efficiency results”. 
+To determine the convergence rate, we use the value of the loss function. For each of the two processing units, the loss function value at each epoch iteration is recorded. The system is reset and re-trained 100 times, and the loss function value at each epoch is averaged. The loss function value against epoch number is then plotted for each processing unit case. We expect the loss to fall, and then platau at some minimum value. The quicker the system is able to reach this platau, the better its convergence rate. This code took about 50 hours to run on my machine, and the results are posted in the results folder under “Quantum with and without CNOT Efficiency result”. 
 
 **Effect of Qubit Number and Depth**
 
